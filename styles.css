@@ -6,7 +6,7 @@
     border: none;
     outline: none;
     scroll-behavior: smooth;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Cambria', sans-serif;
 }
 
 :root {
@@ -301,7 +301,7 @@ span {
     margin: 2rem 0 3rem;
 }
 
-.btn-box .btns {
+.about-content .btn-box.btns {
     display: inline-block;
     width: 15rem;
 }
@@ -361,6 +361,7 @@ span {
     border-radius: .6rem;
     margin-bottom: 2rem;
     overflow: hidden;
+    height: 16rem;
 }
 
 .education-content .content::before {
@@ -396,6 +397,8 @@ span {
 .education-content .content p {
     font-size: 1.5rem;
     padding-top: .5rem;   
+    line-height: 1.5;
+    margin-top: .4rem;
 }
 
 .skills {
@@ -576,7 +579,7 @@ span {
     resize: none;
 }
 
-.contact form .btn-box.btns .btn {
+.contact form .btn-box.btns button {
     cursor: pointer;
 }
 
